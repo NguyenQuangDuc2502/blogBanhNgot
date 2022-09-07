@@ -1,0 +1,228 @@
+
+
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    width:100%;
+
+    font-family: 'Dancing Script', cursive;
+
+}
+
+h1{
+    background-image: url('https://i.pinimg.com/564x/08/e4/62/08e46217230c9d1cbaa1cd40737333fd.jpg');
+    background-size:100%;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    font-size: 300%;
+}
+
+pre{
+    font-family: 'Dancing Script' , cursive;
+}
+
+header>nav{
+
+    margin: auto;    
+    
+    width:100%;
+
+
+}
+
+header nav ul {
+
+    list-style: none;
+
+    background-color:rgb(255, 195, 195);
+
+    text-align: center;
+
+    padding: 5px;
+
+    margin: auto;
+
+    width: 100%;
+}
+
+
+nav li {
+
+    width: 20%;
+
+    border-right: 1px solid White ;
+
+    border-left: 1px solid White ;
+
+    height: 50px;
+
+    font-size: 140%;
+
+    display: inline-block;
+
+    margin-right: 0;
+
+    margin-left: 0;
+
+    text-align:center;
+
+}
+
+nav li:last-child{
+
+    border-right: none;
+
+}
+
+nav li li{
+
+    border-right: none;
+
+    width: 100%;
+
+}
+
+nav a {
+
+    text-decoration: none;
+
+    color: black;
+
+    display: block;
+
+    padding-left: 15px;
+
+    transition: 0.5s background-color;
+
+}
+
+nav a:hover {
+
+    background-color: white;
+
+}
+
+nav a.active {
+
+    background-color: white;
+
+    color: 444;
+
+    cursor: default;
+
+}
+
+nav li li {
+
+    font-size: 1em;
+
+}
+
+
+
+nav>ul>li {
+
+    text-align: center;
+
+}
+
+
+
+nav>ul>li>a {
+
+    padding-left: 0;
+
+    padding-right: 0;
+
+}
+
+nav li ul {
+
+    position: absolute;
+
+    display: none;
+
+    width: 14.5%;
+
+}
+
+
+
+nav li:hover ul {
+
+    display: block;
+
+    width: 14%;
+
+}
+
+
+
+nav li ul li {
+
+    display: block;
+
+}
+
+h3{
+    font-size: 225%;
+
+    color:blue;
+}
+
+p{
+    font-size: 150%;
+
+    color: black;
+
+    text-align:left;
+
+}
+
+h4>p{
+    font-size: 300%;
+
+    color: black;
+
+    text-align:left;
+
+}
+
+img{
+    width: 100%;
+}
+
+
+
+body>nav{
+    background-color: rgb(255, 255, 255, 0.8);
+
+    margin:auto;
+
+    width:80%;
+
+}
+
+footer>a{
+    background-color: rgb(167, 11, 102);
+
+    color:rgb(255, 255, 255);
+
+    text-align:center;
+
+    font-size: 250%;
+}
+
+footer{
+    background-color:rgb(255, 255, 255);
+
+    margin: auto;
+
+    width:80%;
+
+    text-align:center;
+
+}
